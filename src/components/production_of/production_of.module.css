@@ -1,0 +1,37 @@
+.production_of {
+  max-width: 1100px;
+  display: grid;
+  gap: 60px;
+  margin: 0 auto;
+  padding: 33px 10px 27px;
+}
+
+.production_block_top {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.production_img {
+  flex-shrink: 0;
+}
+
+.production_text {
+  max-width: 537px;
+
+  flex-shrink: 0;
+
+  color: #1d0254;
+  font-family: v_DigitalStrip 2 BB;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.production_block_bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 30px;
+  justify-items: right;
+}

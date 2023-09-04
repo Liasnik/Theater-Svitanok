@@ -1,0 +1,44 @@
+.repetitions {
+  display: flex;
+  flex-direction: column;
+  max-width: 1130px;
+  padding: 0px 10px 0px 10px;
+  margin-top: 60px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.description_training_block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 58px;
+
+  gap: 125px;
+}
+.description {
+  display: grid;
+  width: 445px;
+  height: 312px;
+
+  font-family: v_DigitalStrip 2 BB;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  justify-items: start;
+}
+
+.text {
+  display: grid;
+}
+
+.button {
+  align-self: end;
+}
+
+.items_right {
+  justify-items: end;
+}
+
+.image {
+}

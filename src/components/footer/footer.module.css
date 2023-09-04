@@ -1,0 +1,84 @@
+.footer {
+  height: 302px;
+  padding: 18px;
+  background: #826aed;
+}
+
+.footer_container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 38px;
+  gap: 20px;
+}
+
+.logo img {
+  width: 206px;
+  height: 84px;
+  flex-shrink: 0;
+}
+
+.top h3 {
+  width: 350px;
+  height: 30px;
+
+  color: #fff;
+  text-align: center;
+  font-family: v_SanDiego 2005 BB;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.middle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.middle h3 {
+  flex-shrink: 0;
+  color: #fff;
+  font-family: v_DigitalStrip 2 BB;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.social {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 36px;
+  flex-shrink: 0;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.email {
+  color: #fff;
+  font-family: v_DigitalStrip 2 BB;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.phone {
+  flex-shrink: 0;
+
+  color: #fff;
+  text-align: right;
+  font-family: v_DigitalStrip 2 BB;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

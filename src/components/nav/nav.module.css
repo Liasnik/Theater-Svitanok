@@ -1,0 +1,66 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  align-items: center;
+  background: #3b23a6;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 1440px;
+}
+
+.logo {
+  margin-left: 144px;
+  flex-shrink: 0;
+}
+
+.logo img {
+  width: 95px;
+  height: 38px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 82px;
+  margin-right: 144px;
+}
+
+.menu span:hover {
+  cursor: pointer;
+}
+
+.sign_up {
+  color: #2c0282;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 232px;
+  height: 43px;
+  flex-shrink: 0;
+
+  border-radius: 15px;
+  background: #ffeb3a;
+  box-shadow: -5px -5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.sign_up:hover {
+  background: #fff279;
+}
+.sign_up:active {
+  background: #ffeb3a;
+  box-shadow: none;
+}

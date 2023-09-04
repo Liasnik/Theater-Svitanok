@@ -1,0 +1,25 @@
+.button {
+  width: 255px;
+  height: 70px;
+  flex-shrink: 0;
+
+  border-radius: 25px;
+  background-color: #7d65eb;
+  box-shadow: -5px -5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+
+  color: #fff;
+  text-align: center;
+  font-family: v_DigitalStrip 2 BB;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+.button:active {
+  opacity: 1;
+  box-shadow: none;
+}
