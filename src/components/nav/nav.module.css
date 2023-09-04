@@ -34,6 +34,38 @@
   margin-right: 144px;
 }
 
+@media (max-width: 600px) {
+  .logo {
+    margin-left: 30px;
+    margin-right: 10px;
+    flex-shrink: 0;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .logo {
+    margin-left: 18px;
+    margin-right: 10px;
+    flex-shrink: 0;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    margin-right: 17px;
+  }
+}
+
 .menu span:hover {
   cursor: pointer;
 }
@@ -63,4 +95,20 @@
 .sign_up:active {
   background: #ffeb3a;
   box-shadow: none;
+}
+
+@media (max-width: 600px) {
+  .sign_up {
+    width: 180px;
+    height: 43px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 500px) {
+  .sign_up {
+    width: 145px;
+    height: 43px;
+    font-size: 12px;
+  }
 }
