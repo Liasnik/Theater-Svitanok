@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Theater-Svitanok/static/css/main.8d888892.css",
+    "main.css": "/Theater-Svitanok/static/css/main.7b909633.css",
     "main.js": "/Theater-Svitanok/static/js/main.74dc8563.js",
     "static/media/Header-bg.png": "/Theater-Svitanok/static/media/Header-bg.a6d593139959c16bb868.png",
+    "static/media/Header-bg2.png": "/Theater-Svitanok/static/media/Header-bg2.6bf6fc51c0ed6c0ac41b.png",
     "static/media/Slider-3.png": "/Theater-Svitanok/static/media/Slider-3.d984d3a1c0dbcf586a9b.png",
     "static/media/Slider-1.png": "/Theater-Svitanok/static/media/Slider-1.c3b0b87635451eda487f.png",
     "static/media/Slider-2.png": "/Theater-Svitanok/static/media/Slider-2.efe9d81fcf9b024d79ef.png",
@@ -21,11 +22,11 @@
     "static/media/telrgram.svg": "/Theater-Svitanok/static/media/telrgram.5b5c29af0904502b009411da96f1c230.svg",
     "static/media/Instagram.svg": "/Theater-Svitanok/static/media/Instagram.f05fb020931bc6ed6f3ae3a04129be98.svg",
     "index.html": "/Theater-Svitanok/index.html",
-    "main.8d888892.css.map": "/Theater-Svitanok/static/css/main.8d888892.css.map",
+    "main.7b909633.css.map": "/Theater-Svitanok/static/css/main.7b909633.css.map",
     "main.74dc8563.js.map": "/Theater-Svitanok/static/js/main.74dc8563.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d888892.css",
+    "static/css/main.7b909633.css",
     "static/js/main.74dc8563.js"
   ]
 }
