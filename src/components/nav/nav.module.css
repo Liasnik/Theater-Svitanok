@@ -98,26 +98,28 @@
   box-shadow: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
+  .sign_up {
+    display: none;
+  }
+}
+
+/* @media (max-width: 600px) {
   .sign_up {
     width: 180px;
     height: 43px;
     font-size: 14px;
   }
-}
+} */
 
-@media (max-width: 520px) {
+/* @media (max-width: 520px) {
   .sign_up {
     width: 145px;
     height: 43px;
     font-size: 12px;
   }
-}
+} */
 @media (max-width: 460px) {
-  .sign_up {
-    display: none;
-  }
-
   .menu span {
     display: none;
   }
