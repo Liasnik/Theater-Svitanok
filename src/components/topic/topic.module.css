@@ -16,3 +16,9 @@
   font-weight: 400;
   line-height: normal;
 }
+
+@media (max-width: 600px) {
+  .wrapper {
+    padding: 40px 10px 0;
+  }
+}

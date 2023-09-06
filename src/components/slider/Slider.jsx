@@ -22,7 +22,12 @@ const Slider = () => {
 
   return (
     <div className="slider-container">
-      <div onClick={handleNext} className="slider" ref={sliderRef}>
+      <div
+        onClick={handleNext}
+        // onScroll={handleNext}
+        className="slider"
+        ref={sliderRef}
+      >
         <div
           className="slides"
           style={{ transform: `translateX(-${currentShow * 33.33}%)` }}
@@ -85,7 +90,7 @@ const showList = [
   {
     id: 3,
     imageUrl: image2,
-    name: '“загублені в морі зорі”',
+    name: '“Загублені в морі зорі”',
   },
   {
     id: 4,

@@ -4,11 +4,48 @@
   border: none;
 }
 
+:root {
+  --blackpure: #000;
+  --black: #171718;
+  --black-border: #26292d;
+  --white: #fff;
+  --pink: #fbe3ff;
+  --purple-light: #7d65eb;
+  --dark-purple: #1d0254;
+  --blue: #3b23a6;
+  --blue-darker: #2c0282;
+  --yellow: #ffeb3a;
+
+  /* Light mode */
+  --page-bg: var(--pink);
+  --text-color: var(--blue-darker);
+  --accent: var(--purple);
+  --title-1: var(--accent);
+
+  --project-card-bg: var(--white);
+  --project-card-text: var(--black);
+  --box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.25);
+}
+
+.dark {
+  /* Dark mode */
+  --page-bg: var(--blue-darker);
+  --text-color: var(--pink);
+
+  --title-1: var(--white);
+
+  --project-card-bg: var(--black);
+  --project-card-text: var(--white);
+  --box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.8);
+}
+
 body {
   font-family: 'V_PitonAstroSity', 'v_DigitalStrip', 'v_DutyCalls BB',
     'v_DigitalStrip 2.0 BB', 'v_SanDiego 2005 BB', sans-serif;
-  color: #1d0254;
-  background-color: #fbe3ff;
+  /* color: #1d0254;
+  background-color: #fbe3ff; */
+  color: var(--text-color);
+  background-color: var(--page-bg);
 }
 
 /* Reset and base styles  */

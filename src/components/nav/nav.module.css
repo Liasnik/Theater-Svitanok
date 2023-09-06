@@ -14,6 +14,7 @@
   display: flex;
   justify-content: space-between;
   width: 1440px;
+  gap: 10px;
 }
 
 .logo {
@@ -34,7 +35,7 @@
   margin-right: 144px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .logo {
     margin-left: 30px;
     margin-right: 10px;
@@ -105,10 +106,25 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 520px) {
   .sign_up {
     width: 145px;
     height: 43px;
     font-size: 12px;
+  }
+}
+@media (max-width: 460px) {
+  .sign_up {
+    display: none;
+  }
+
+  .menu span {
+    display: none;
+  }
+}
+
+@media (min-width: 460px) {
+  .burger {
+    display: none;
   }
 }

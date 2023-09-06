@@ -10,13 +10,13 @@ import Indian_dance from './images/Img/Indian-dance.png'
 import Alisa from './images/Img/Alisa.png'
 import Slider from './components/slider/Slider'
 import Footer from './components/footer/Footer'
-import Production_of from './components/production_of/Production_of'
+import Production from './components/production_of/Production_of'
 import director from './images/Img/director.png'
 import decoration from './images/Img/decoration.png'
 import preparation from './images/Img/Masha.png'
 import creative_search from './images/Img/creative search.png'
 import this_time from './images/Img/last-image.png'
-import after from './images/Img/after.png'
+import three_orange from './images/Img/Three_orange.png'
 
 function App() {
   return (
@@ -53,31 +53,27 @@ function App() {
       <Topic title="Репертуар" />
       <Slider />
       <Topic title="Як ставляться спектаклі" />
-      <Production_of
+      <Production
         text1={finde_director}
         text2={buildDecoration}
         img1={director}
         img2={decoration}
       />
-      <Production_of
+      <Production
         text1={preparation_text}
         text2={creative_search_text}
         img1={preparation}
         img2={creative_search}
       />
-      <Production_of
+      <Production
         text1={this_time_text}
-        // text2={resume_text}
+        text2={resume_text}
         img1={this_time}
-        img2=""
+        img2={three_orange}
       />
-      <div className="resume">
-        {/* <img src={after} alt="" /> */}
-        <p>
-          Після всіх цих етапів та довгих старанних репетицій дітище всієї
-          команди може побачити світ, а світ може побачити його
-        </p>
-      </div>
+      {/* <div className="resume">
+        <p>{resume_text}</p>
+      </div> */}
 
       <Footer />
     </div>
@@ -138,7 +134,7 @@ const preparation_text = `3) Під час технічних підготува
 
 const creative_search_text = `4) Коли загалом актори вже знають, що їм робити, починається творчий пошук: в наступні репетиції йде багато імпровізації та моментів під назвою “А що, якщо зробити так...”.  `
 
-const this_time_text = `В цей час спектакль набирає свого емоційного забарвлення, коли актори вкладують свою душу, так би мовити оживляють дію на сцені.`
+const this_time_text = `В цей час спектакль набирає свого емоційного забарвлення, коли актори вкладають свою душу, так би мовити оживляють дію на сцені.`
 
-const resume_text = `Після всіх цих етапів та довгих старанних репетицій дітище всієї команди може побачити світ, а світ може побачити його
+const resume_text = `І ось як результат копіткої праці, після всіх цих етапів та довгих старанних репетицій, виходить у світ плід усієї команди - нова вистава!
 `

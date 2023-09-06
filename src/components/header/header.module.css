@@ -12,6 +12,12 @@
   background: url(./../../images/Img/Header-bg.png);
 }
 
+@media (max-width: 900px) {
+  .header {
+    background: url(./../../images/Img/Header-bg2.png);
+  }
+}
+
 .title {
   display: flex;
   flex-direction: column;

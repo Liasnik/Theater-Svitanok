@@ -44,7 +44,7 @@
 }
 /* Увеличиваем активное фото */
 .slide.active img {
-  transform: scale(1.5);
+  transform: scale(1.7);
 }
 
 /* .slide.next img {
@@ -68,46 +68,65 @@
 .button_block {
   display: flex;
   justify-content: space-between;
-  margin: 30px 20px 79px;
+  margin: 30px 20px 150px;
 }
 
 .button {
-  color: #fbe3ff;
+  opacity: 0;
 }
 .button:hover {
-  color: inherit;
+  opacity: 1;
 }
 
 .Performance_name {
   position: absolute;
-  bottom: -130px;
+  bottom: -199px;
   width: 280px;
 }
 
 @media (max-width: 950px) {
   .Performance_name {
     position: absolute;
-    bottom: -100px;
+    bottom: -120px;
     width: 200px;
     font-size: 14px;
   }
-}
-
-@media (max-width: 950px) {
-  .Performance_name {
-    bottom: -80px;
+  .slide.active img {
+    transform: scale(2);
   }
 }
 
 @media (max-width: 650px) {
   .Performance_name {
-    bottom: -70px;
+    bottom: -100px;
     width: 150px;
+  }
+}
+@media (max-width: 600px) {
+  .Performance_name {
+    bottom: -130px;
+    width: 110px;
+  }
+  .slide.active img {
+    transform: scale(2.5);
+  }
+
+  .slider-container {
+    width: 92%;
+    height: 300px;
   }
 }
 @media (max-width: 500px) {
   .Performance_name {
-    bottom: -70px;
+    bottom: -130px;
     width: 110px;
+  }
+  .slide.active img {
+    transform: scale(2.5);
+  }
+
+  .slider-container {
+    width: 92%;
+    height: 270px;
   }
 }
