@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Theater-Svitanok/static/css/main.1cfdd95a.css",
+    "main.css": "/Theater-Svitanok/static/css/main.c3b33d74.css",
     "main.js": "/Theater-Svitanok/static/js/main.918555d6.js",
     "static/media/Header-bg.png": "/Theater-Svitanok/static/media/Header-bg.a6d593139959c16bb868.png",
     "static/media/Header-bg2.png": "/Theater-Svitanok/static/media/Header-bg2.6bf6fc51c0ed6c0ac41b.png",
@@ -24,11 +24,11 @@
     "static/media/telrgram.svg": "/Theater-Svitanok/static/media/telrgram.5b5c29af0904502b009411da96f1c230.svg",
     "static/media/Instagram.svg": "/Theater-Svitanok/static/media/Instagram.f05fb020931bc6ed6f3ae3a04129be98.svg",
     "index.html": "/Theater-Svitanok/index.html",
-    "main.1cfdd95a.css.map": "/Theater-Svitanok/static/css/main.1cfdd95a.css.map",
+    "main.c3b33d74.css.map": "/Theater-Svitanok/static/css/main.c3b33d74.css.map",
     "main.918555d6.js.map": "/Theater-Svitanok/static/js/main.918555d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.1cfdd95a.css",
+    "static/css/main.c3b33d74.css",
     "static/js/main.918555d6.js"
   ]
 }
