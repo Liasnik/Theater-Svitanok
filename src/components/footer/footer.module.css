@@ -1,7 +1,7 @@
 .footer {
   height: 302px;
   padding: 18px;
-  background: #826aed;
+  background: var(--blue);
 }
 
 .footer_container {
